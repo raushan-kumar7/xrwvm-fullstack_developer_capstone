@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <!-- Link the style sheet here -->
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+    <style>
+      .contact {
+        border-color: rgb(76, 120, 76) !important;
+        border-radius: 25px;
+      }
+    </style>
+  </head>
+  <div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Dealerships</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="font-size: larger"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="font-size: larger"
+                href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container border border-3 p-3 mt-5 contact">
+      <div class="row">
+        <!-- Car Dealership Image -->
+        <div class="col-12 text-center">
+          <img
+            src="/static/car_dealership.jpg"
+            alt="Car Dealership"
+            class="car-image img-fluid"
+            style="width: 450px; height: 250px"
+          />
+        </div>
+      </div>
+      <hr />
+
+      <div class="row mt-4">
+        <!-- Customer Support Icon -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <img
+              src="/static/contact.jpg"
+              alt=""
+              style="width: 250px; height: 200px"
+            />
+          </div>
+        </div>
+
+        <!-- Customer Support Information -->
+        <div class="col-md-6">
+          <div class="info-box">
+            <h5>Contact Customer Service</h5>
+            <div class="info-list">
+              <p><strong>Email:</strong> support@bestcars.com</p>
+              <p><strong>Advertising:</strong> NationalSales@bestcars.com</p>
+              <p><strong>PR Team:</strong> PR@bestcars.com</p>
+              <p><strong>Phone:</strong> 312-611-1111</p>
+              <p>Visit: growwithbestcars.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
